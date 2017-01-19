@@ -15,7 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".AdditionService" android:process=":remote">
+        <service android:name=".AdditionService">
             <intent-filter>
                 <action android:name="com.service.AdditionService" />
             </intent-filter>
